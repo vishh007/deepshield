@@ -27,7 +27,7 @@ DeepShield v3 analyzes videos frame-by-frame in real time and detects whether th
 
 | Scanner View | Verdict Panel |
 |---|---|
-| ![Scanner](assets/screenshot1.png) | ![Verdict](assets/screenshot2.png) |
+| ![Scanner](assets/screenshot1.png) | ![Verdict](assets/screenshot2.jpeg) |
 
 ---
 
