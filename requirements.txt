@@ -1,0 +1,33 @@
+# ── Web framework ─────────────────────────────────────────
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.12
+pydantic>=2.10.0
+websockets>=12.0
+
+# ── ML core ───────────────────────────────────────────────
+torch>=2.1.0
+torchvision>=0.16.0
+transformers>=4.40.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# ── Video processing ──────────────────────────────────────
+opencv-python>=4.8.0
+yt-dlp>=2024.1.0
+
+# ── Computer vision ───────────────────────────────────────
+mediapipe>=0.10.0          # face detection
+ultralytics>=8.0.0         # YOLOv8 — downloads yolov8n.pt (~6MB) on first scan
+easyocr>=1.7.0             # on-screen text detection
+
+# ── Speech recognition ────────────────────────────────────
+openai-whisper>=20231117   # audio transcription (Whisper tiny, ~150MB)
+
+# ── AI report generation ──────────────────────────────────
+groq>=0.9.0                # free LLM reports via Groq API
+
+# ── Utilities ─────────────────────────────────────────────
+aiofiles>=23.0.0           # async file handling
+httpx>=0.27.0              # async HTTP client
+python-dotenv>=1.0.0       # load .env for GROQ_API_KEY

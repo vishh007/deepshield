@@ -1,0 +1,47 @@
+# ── Virtual environment ───────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Python bytecode ───────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── ML model weights (download via download_models.py) ────
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.ckpt
+
+# ── Temporary scan files ──────────────────────────────────
+backend/tmp_videos/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# ── Secrets ───────────────────────────────────────────────
+.env
+*.env
+.env.local
+
+# ── IDE ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ─────────────────────────────────────────────────
+*.log
+logs/
